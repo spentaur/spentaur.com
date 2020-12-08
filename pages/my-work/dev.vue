@@ -12,13 +12,13 @@
             ListingWall
           </a>
         </div>
-        <p class="text-gray-700 text-base font-thin mb-3">
+        <p class="text-gray-700 text-base mb-3">
           ListingWall is a project I've been working on in my free time since
           November 2013. It started as and exercise to teach myself PHP and
           refine my CSS and JS skills, but has grown into something that I'm
           very passionate about.
         </p>
-        <p class="text-gray-700 text-base font-thin">
+        <p class="text-gray-700 text-base">
           It's a website similar to Craigslist, where users can upload
           apartments for rent, houses for sale, job listings, etc. but with a
           few key changes that I think result in a much better experience.
@@ -37,7 +37,7 @@
             Post Here
           </a>
         </div>
-        <p class="text-gray-700 text-base font-thin">
+        <p class="text-gray-700 text-base">
           Post-Here.com uses a BERT classification model and ~4,000,000 posts
           mined from ~5,000 subreddits. The front end uses Nuxt and tailwind UI
           and is deployed as a static site to Cloudflare using Cloudflare
