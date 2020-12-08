@@ -25,8 +25,8 @@
       </nuxt-link>
       <div class="mt-3 text-center">
         <div class="font-bold text-lg mb-2">
-          <nuxt-link to="my-work/web" class="text-orange-500">
-            Web Development
+          <nuxt-link to="my-work/dev" class="text-orange-500">
+            Development
           </nuxt-link>
         </div>
       </div>
