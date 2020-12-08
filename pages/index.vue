@@ -1,68 +1,95 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">spentaurv2</h1>
-      <div class="links">
+  <div class="w-full trans max-w-lg">
+    <div class="mx-auto flex flex-col">
+      <div class="text-5xl text-gray-700 leading-none font-hairline mb-12">
+        you can call me
+        <span class="text-orange-500 uppercase font-extrabold">
+          spentaur.
+        </span>
+      </div>
+      <div class="text-gray-700 font-light text-lg mb-12">
+        I am a
+        <nuxt-link class="text-orange-500" to="/my-work/web">
+          web developer
+        </nuxt-link>
+        and
+        <nuxt-link class="text-orange-500" to="/my-work/photography">
+          photographer
+        </nuxt-link>
+        based out of
         <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
+          class="text-orange-500"
+          href="https://en.wikipedia.org/wiki/Champaign,_Illinois"
         >
-          Documentation
+          Champaign, IL.
         </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
+        I'm currently studying data science at
+        <a class="text-orange-500" href="https://lambdaschool.com/">
+          Lambda School.
+        </a>
+        My interests include artificial intelligence, robotics, anything flying,
+        security, polar pops, and long drives on the beach.
+      </div>
+
+      <div>
+        <a href="https://instagram.com/spentaur">
+          <svg
+            class="fill-current hover:text-orange-500 text-gray-800 inline-block h-12 w-12"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 19.19995 19.19995"
+          >
+            <title>instagram-with-circle</title>
+            <path
+              d="M13.89777,7.05115a1.65591,1.65591,0,0,0-.94891-0.94891,2.76589,2.76589,0,0,0-.92841-0.17218C11.49316,5.906,11.33508,5.90094,10,5.90094S8.50684,5.906,7.97955,5.93005a2.76589,2.76589,0,0,0-.92841.17218,1.65591,1.65591,0,0,0-.94891.94891,2.76589,2.76589,0,0,0-.17218.92841C5.906,8.50684,5.90094,8.665,5.90094,10s0.00507,1.49316.02911,2.02045a2.76553,2.76553,0,0,0,.17218.92841,1.65591,1.65591,0,0,0,.94891.94891,2.76589,2.76589,0,0,0,.92841.17218c0.52716,0.024.6853,0.02911,2.02045,0.02911s1.49329-.00507,2.02045-0.02911a2.76589,2.76589,0,0,0,.92841-0.17218,1.65591,1.65591,0,0,0,.94891-0.94891,2.76553,2.76553,0,0,0,.17218-0.92841c0.024-.52728.02911-0.68536,0.02911-2.02045S14.094,8.50684,14.06995,7.97955A2.76589,2.76589,0,0,0,13.89777,7.05115ZM10,12.56757A2.56757,2.56757,0,1,1,12.56757,10,2.56756,2.56756,0,0,1,10,12.56757ZM12.669,7.931a0.6,0.6,0,1,1,.6-0.6A0.6,0.6,0,0,1,12.669,7.931Z"
+              transform="translate(-0.40002 -0.40002)"
+            />
+            <circle cx="9.59998" cy="9.59998" r="1.66669" />
+            <path
+              d="M10,0.4A9.6,9.6,0,1,0,19.6,10,9.59995,9.59995,0,0,0,10,.4Zm4.96991,11.6615a3.67039,3.67039,0,0,1-.23242,1.21368,2.55612,2.55612,0,0,1-1.46228,1.46228,3.67039,3.67039,0,0,1-1.21368.23242C11.5282,14.99426,11.35791,15,10,15s-1.5282-.00574-2.06152-0.03009a3.67039,3.67039,0,0,1-1.21368-.23242,2.55612,2.55612,0,0,1-1.46228-1.46228,3.67039,3.67039,0,0,1-.23242-1.21368C5.00574,11.5282,5,11.35791,5,10s0.00574-1.5282.03009-2.06152a3.67039,3.67039,0,0,1,.23242-1.21368A2.55612,2.55612,0,0,1,6.72479,5.26251a3.67039,3.67039,0,0,1,1.21368-.23242C8.4718,5.00574,8.64209,5,10,5s1.5282,0.00574,2.06152.03009a3.67039,3.67039,0,0,1,1.21368.23242,2.55612,2.55612,0,0,1,1.46228,1.46228,3.67039,3.67039,0,0,1,.23242,1.21368C14.99426,8.4718,15,8.64209,15,10S14.99426,11.5282,14.96991,12.06152Z"
+              transform="translate(-0.40002 -0.40002)"
+            />
+          </svg>
+        </a>
+        <a href="https://github.com/spentaur">
+          <svg
+            class="fill-current hover:text-orange-500 text-gray-800 inline-block h-12 w-12"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M10.015,9.949c0,0-0.01,0-0.015,0H9.985c-1.191,0-2.24-0.303-2.861,0.268c-0.371,0.342-0.527,0.754-0.527,1.197c0,1.852,1.483,2.08,3.389,2.08h0.029c1.905,0,3.389-0.229,3.389-2.08c0-0.443-0.156-0.856-0.527-1.197C12.255,9.646,11.206,9.949,10.015,9.949z M8.393,12.48c-0.363,0-0.656-0.408-0.656-0.91c0-0.502,0.293-0.908,0.656-0.908c0.363,0,0.657,0.406,0.657,0.908C9.051,12.072,8.757,12.48,8.393,12.48z M11.606,12.48c-0.363,0-0.657-0.408-0.657-0.91c0-0.502,0.294-0.908,0.657-0.908c0.362,0,0.656,0.406,0.656,0.908C12.263,12.072,11.969,12.48,11.606,12.48z M10,0.4c-5.302,0-9.6,4.298-9.6,9.6s4.298,9.6,9.6,9.6s9.6-4.298,9.6-9.6S15.302,0.4,10,0.4z M10.876,13.939c-0.172,0-0.514,0-0.876,0.002c-0.362-0.002-0.704-0.002-0.876-0.002c-0.76,0-3.772-0.059-3.772-3.689c0-0.834,0.286-1.445,0.755-1.955c-0.074-0.184-0.078-1.232,0.32-2.236c0,0,0.916,0.1,2.301,1.051C9.017,7.029,9.509,6.988,10,6.988s0.982,0.041,1.273,0.121c1.385-0.951,2.301-1.051,2.301-1.051c0.398,1.004,0.395,2.053,0.32,2.236c0.469,0.51,0.755,1.121,0.755,1.955C14.648,13.881,11.636,13.939,10.876,13.939z"
+            />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/spencer-adams-0500277b/">
+          <svg
+            class="fill-current hover:text-orange-500 text-gray-800 inline-block h-12 w-12"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M10,0.4c-5.302,0-9.6,4.298-9.6,9.6s4.298,9.6,9.6,9.6s9.6-4.298,9.6-9.6S15.302,0.4,10,0.4z M7.65,13.979H5.706V7.723H7.65V13.979z M6.666,6.955c-0.614,0-1.011-0.435-1.011-0.973c0-0.549,0.409-0.971,1.036-0.971c0.627,0,1.011,0.422,1.023,0.971C7.714,6.52,7.318,6.955,6.666,6.955z M14.75,13.979h-1.944v-3.467c0-0.807-0.282-1.355-0.985-1.355c-0.537,0-0.856,0.371-0.997,0.728c-0.052,0.127-0.065,0.307-0.065,0.486v3.607H8.814v-4.26c0-0.781-0.025-1.434-0.051-1.996h1.689l0.089,0.869h0.039c0.256-0.408,0.883-1.01,1.932-1.01c1.279,0,2.238,0.857,2.238,2.699V13.979z"
+            />
+          </svg>
         </a>
       </div>
     </div>
   </div>
 </template>
-
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'About Me',
+      meta: [
+        {
+          hid: `description`,
+          name: 'description',
+          content:
+            "I am a web developer and photographer based out of Champaign, IL. I'm currently studying data science at Lambda School. My interests include machine learning, AI, robotics, anything flying, security, polar pops, and long drives on the beach. ",
+        },
+      ],
+    }
+  },
+}
 </script>
-
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
