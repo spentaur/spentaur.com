@@ -23,7 +23,7 @@
         >
           Champaign, IL.
         </a>
-        I'm currently studying data science at
+        I studied data science at
         <a class="text-orange-500" href="https://lambdaschool.com/">
           Lambda School.
         </a>

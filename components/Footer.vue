@@ -21,7 +21,7 @@
               >
                 Champaign, IL.
               </a>
-              I'm currently studying
+              I studied
               <nuxt-link to="my-work/data" class="text-orange-500">
                 data science
               </nuxt-link>
