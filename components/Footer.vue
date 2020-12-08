@@ -7,8 +7,8 @@
             <h3 class="font-bold text-gray-900">About Me</h3>
             <div class="py-4 text-gray-600 text-sm">
               I am a
-              <nuxt-link class="text-orange-500" to="/my-work/web">
-                web developer
+              <nuxt-link class="text-orange-500" to="/my-work/dev">
+                developer
               </nuxt-link>
               and
               <nuxt-link class="text-orange-500" to="/my-work/photography">

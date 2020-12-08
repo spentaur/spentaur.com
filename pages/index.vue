@@ -9,8 +9,8 @@
       </div>
       <div class="text-gray-700 font-light text-lg mb-12">
         I am a
-        <nuxt-link class="text-orange-500" to="/my-work/web">
-          web developer
+        <nuxt-link class="text-orange-500" to="/my-work/dev">
+          developer
         </nuxt-link>
         and
         <nuxt-link class="text-orange-500" to="/my-work/photography">
