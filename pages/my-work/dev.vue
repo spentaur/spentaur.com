@@ -53,12 +53,12 @@ export default {
   auth: false,
   head() {
     return {
-      title: 'Web Sites',
+      title: 'Development',
       meta: [
         {
           hid: `description`,
           name: 'description',
-          content: 'A collection of my web sites.',
+          content: 'A collection of my development projects.',
         },
       ],
     }
