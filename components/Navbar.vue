@@ -84,29 +84,6 @@
   </nav>
 </template>
 
-<style lang="postcss" scoped>
-.navbar-white {
-  @apply shadow bg-white;
-}
-
-.search-input {
-  @apply bg-white border border-gray-300 rounded-lg ml-5 py-2 px-4 block w-full appearance-none leading-normal;
-}
-
-.nuxt-link-active:not(.navbar-brand) {
-  @apply text-orange-500;
-}
-.nuxt-link-active:hover:not(.navbar-brand) {
-  @apply text-orange-100;
-}
-
-.scroll-progress-bar-not-fixed {
-  width: 100%;
-  top: 0;
-  left: 0;
-}
-</style>
-
 <script>
 export default {
   data() {
@@ -181,3 +158,26 @@ export default {
   },
 }
 </script>
+
+<style lang="postcss" scoped>
+.navbar-white {
+  @apply shadow bg-white;
+}
+
+.search-input {
+  @apply bg-white border border-gray-300 rounded-lg ml-5 py-2 px-4 block w-full appearance-none leading-normal;
+}
+
+.nuxt-link-active:not(.navbar-brand) {
+  @apply text-orange-500;
+}
+.nuxt-link-active:hover:not(.navbar-brand) {
+  @apply text-orange-100;
+}
+
+.scroll-progress-bar-not-fixed {
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+</style>

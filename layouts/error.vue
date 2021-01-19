@@ -13,6 +13,7 @@
 
 <script>
 export default {
+  layout: 'default',
   // eslint-disable-next-line vue/require-prop-types
   props: ['error'],
   head() {
@@ -20,6 +21,5 @@ export default {
       title: 'Error',
     }
   },
-  layout: 'default', // you can set a custom layout for the error page
 }
 </script>

@@ -62,11 +62,7 @@
     />
   </div>
 </template>
-<style lang="postcss" scoped>
-img {
-  margin: 1px;
-}
-</style>
+
 <script>
 export default {
   auth: false,
@@ -84,3 +80,9 @@ export default {
   },
 }
 </script>
+
+<style lang="postcss" scoped>
+img {
+  margin: 1px;
+}
+</style>

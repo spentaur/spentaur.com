@@ -10,6 +10,7 @@ export default {
   components: {
     Results,
   },
+  layout: 'blog',
   data() {
     return {
       blogs: { data: [] },
@@ -27,7 +28,7 @@ export default {
       ],
     }
   },
-  layout: 'blog',
+
   watchQuery: ['page'],
 }
 </script>

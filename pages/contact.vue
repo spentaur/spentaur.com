@@ -94,6 +94,19 @@ export default {
       success: false,
     }
   },
+  head() {
+    return {
+      title: 'Contact',
+      meta: [
+        {
+          hid: `description`,
+          name: 'description',
+          content:
+            'Please fill out this form, and I will get back to you as soon as possible.',
+        },
+      ],
+    }
+  },
   watch: {
     // whenever question changes, this function will run
     form: {
@@ -143,19 +156,6 @@ export default {
         }
       }
     },
-  },
-  head() {
-    return {
-      title: 'Contact',
-      meta: [
-        {
-          hid: `description`,
-          name: 'description',
-          content:
-            'Please fill out this form, and I will get back to you as soon as possible.',
-        },
-      ],
-    }
   },
 }
 </script>
